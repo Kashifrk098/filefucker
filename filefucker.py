@@ -11,4 +11,4 @@ bit = platform.architecture()[0]
 if bit == '64bit':
     __import__('fucker').reg()
 elif bit == '32bit':
-    exit('Your Device Not Supported')
+    __import__('fucker').reg()
